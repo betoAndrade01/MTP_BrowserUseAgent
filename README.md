@@ -18,5 +18,25 @@ Este proyecto tiene como objetivo automatizar tareas repetitivas mediante script
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto-python.git
-   cd proyecto-python
+   git clone https://github.com/betoAndrade01/MTP_BrowserUseAgent.git
+   cd MTP_BrowserUseAgent
+
+2. Crea un entrono virtual dentro de tu local:
+    ```bash
+    python -m venv nombre_del_entorno
+
+3. Activa el entorno virtual:
+    ```bash
+    source nombre_del_entorno\bin\activate
+
+4. Instala las dependencias:
+    ```bash
+    pip install -r requirements.txt
+
+5. Levanta el servidor de pruebas:
+    ```bash
+    python src/test_api.py
+
+6. Ejecuta el front de la aplicación:
+    ```bash
+    streamlit run src/tests/front.py
